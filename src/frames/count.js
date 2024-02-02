@@ -1,6 +1,8 @@
-import mainLayout from '../layouts/main';
-import { getFramer, setFramer } from '../data/framer';
-import { getCount, incrementCount } from '../data/count';
+import { getStore } from '@netlify/blobs';
+import { streamToString } from '../../modules/utils';
+
+const wieldKey = process.env.WIELD_API_KEY;
+const wieldAPIBase = 'https://protocol.wield.co/farcaster/v2';
 const getFramer = async() => {
     const store = getStore('gameState');
     const framerId = await store.get('framer');
