@@ -16,13 +16,14 @@ const getFramer = async() => {
     const data = JSON.parse(body);
     const username = data.result.user.username;
     return username;
+    export default {
+        image: `https://api.crawlbase.com/screenshots?token=4HrVHd6RoiajGYYEJsx0QA&height=700&url=https://web3.bio/${username}`,
+        buttons: [
+            { 
+                label: '⬅️ Back',
+                goTo: 'count',
+            }
+        ]
+    };
+    
 }
-export default {
-    image: `https://api.crawlbase.com/screenshots?token=4HrVHd6RoiajGYYEJsx0QA&height=700&url=https://web3.bio/${username}`,
-    buttons: [
-        { 
-            label: '⬅️ Back',
-            goTo: 'count',
-        }
-    ]
-};
