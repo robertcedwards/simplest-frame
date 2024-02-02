@@ -69,7 +69,7 @@ export default async (frameContent) => {
         <body>
             <h1>🔳 The Simplest Frame</h1>
             <figure>
-                <img src="https://api.crawlbase.com/screenshots?token=4HrVHd6RoiajGYYEJsx0QA&url=https://web3.bio/ + ${lastFramerUsername}" />
+                <img src="https://api.crawlbase.com/screenshots?token=4HrVHd6RoiajGYYEJsx0QA&url=https://web3.bio/0xHashbrown.eth" />
             </figure>
         </body>
         </html>
