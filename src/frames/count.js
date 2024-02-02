@@ -1,4 +1,4 @@
-import index from 'index.js';
+import index from '/src/frames/index.js';
 
 const username = data.result.user.username;
 
