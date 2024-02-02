@@ -1,5 +1,4 @@
 import index from 'index.js';
-import landingPage from '../src/landing-page';
 
 const username = data.result.user.username;
 
