@@ -7,7 +7,7 @@ export default async (req, context) => {
     const frameSrc = frames[frameData.name];
 
     if (frameSrc.image) {
-        const image = `${process.env.URL}${frameSrc.image}`
+        const image = `${frameSrc.image}`
         return new Response(image,
             {
                 status: 200,
