@@ -1,8 +1,8 @@
-import landingPage from '../src/landing-page';
-import frames from '../src/frames';
-import { parseRequest, objectToURLSearchParams } from '../modules/utils';
-import buildButtons from '../modules/buildButtons';
-import getTargetFrame from '../modules/getTargetFrame';
+import landingPage from './src/landing-page';
+import frames from './src/frames';
+import { parseRequest, objectToURLSearchParams } from './modules/utils';
+import buildButtons from './modules/buildButtons';
+import getTargetFrame from './modules/getTargetFrame';
 const username = data.result.user.username;
 
 export default {
