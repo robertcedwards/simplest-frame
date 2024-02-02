@@ -34,7 +34,7 @@ export default async (req, context) => {
     }
 
     if (frameSrc.image) {
-        frameContent.image = `${host}${frameSrc.image}`;
+        frameContent.image = `${frameSrc.image}`;
     } else if (frameSrc.build) {
         const searchParams = objectToURLSearchParams(frameData);
         frameContent.image = `${host}/og-image?${searchParams}`;
