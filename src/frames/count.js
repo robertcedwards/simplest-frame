@@ -1,8 +1,7 @@
 const username = data.result.user.username;
-return username;
 
 export default {
-    image: (username) => `https://api.crawlbase.com/screenshots?token=4HrVHd6RoiajGYYEJsx0QA&height=700&url=https://web3.bio/${username}`,
+    image: `https://api.crawlbase.com/screenshots?token=4HrVHd6RoiajGYYEJsx0QA&height=700&url=https://web3.bio/${lastFramerUsername}`,
     buttons: [
         { 
             label: '⬅️ Back',
