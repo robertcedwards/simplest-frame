@@ -1,3 +1,6 @@
+import mainLayout from '../layouts/main';
+import { getFramer, setFramer } from '../data/framer';
+import { getCount, incrementCount } from '../data/count';
 const username = data.result.user.username;
 
 export default {
